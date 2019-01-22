@@ -61,6 +61,10 @@ a {
     color: #2a7fFF;
 }
 
+a:hover {
+    color: #FFF;
+}
+
 canvas{
     position:absolute;
     top:0;
