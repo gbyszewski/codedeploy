@@ -1,4 +1,5 @@
 # CODEDEPLOY.PL
+## tworzymy aplikacje nowej generacji
 
-Strona firmowa
+Strona firmowy CodeDeploy Grzegorz Byszewski
 
