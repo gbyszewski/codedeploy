@@ -1,4 +1,4 @@
- (function() {
+(function() {
     var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame ||
     function(callback) {
         window.setTimeout(callback, 1000 / 60);
@@ -83,7 +83,7 @@ function init() {
     for (var i = 0; i < flakeCount; i++) {
         var x = Math.floor(Math.random() * canvas.width),
             y = Math.floor(Math.random() * canvas.height),
-            size = (Math.random() * 3) + 2,
+            size = (Math.random() * 3) + 3,
             speed = (Math.random() * 1) + 0.5,
             opacity = (Math.random() * 0.5) + 0.3;
 
