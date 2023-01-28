@@ -1,0 +1,115 @@
+html,
+body {
+  font-family: 'Unbounded', cursive;
+  font-size: 15px;
+}
+
+body {
+  background: #FFF;
+}
+
+#tlo {
+  opacity: 0;
+  transition: all 1s;
+  background: #1B2735;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%) !important;
+  z-index: 1;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+.h100 {
+  height: 100% !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.p0 {
+  padding: 0 !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.acenter {
+  align-items: center;
+}
+
+.jcenter {
+  justify-content: center;
+}
+
+.white {
+  color: #EEE;
+}
+
+.fs1 {
+  font-size: 2.5em;
+}
+
+.fs2 {
+  font-size: 1.5em;
+}
+
+.fs3 {
+  font-size: .8em;
+}
+
+.textshadow {
+  text-shadow: 1px 1px 2px #AAf;
+}
+
+.opacity {
+  opacity: 1;
+}
+
+#ramka {
+  background: #223355EE;
+  padding: 25px;
+  border-radius: 20px;
+  border-bottom: 5px solid #556677;
+  transform: rotate3d(1, 1, 1, 0deg);
+  box-shadow: 10px 10px 10px #000;
+  opacity: 0;
+  margin-top: 100px;
+  transition: all 1s;
+  z-index: 3;
+}
+
+.rotate {
+  transform: rotate3d(1, 1, 1, -10deg) !important;
+}
+
+#monkey {
+  padding: 4px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 1px solid #EEE;
+  border-radius: 100%;
+  line-height: 1.2;
+}
+
+#warstwa {
+  position: absolute;
+  background: url(code.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: all 1s;
+}
